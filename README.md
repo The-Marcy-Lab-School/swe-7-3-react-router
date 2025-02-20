@@ -54,11 +54,11 @@ After cloning your repository, make sure to create a `draft` branch:
 git checkout -b draft
 ```
 
-Then, `cd` into the `vite-project` directory and split your terminal into two:
+Then, `cd` into the `app` directory and split your terminal into two:
 
-![](./images/split-terminal.gif)
+![Split a terminal](./images/split-terminal.png)
 
-In one terminal, run `npm install` to set up dependencies. Then run `npm start` to start the React App. This is your Front-End.
+In one terminal, run `npm install` to set up dependencies. Then run `npm run dev` to start the React App. This is your Front-End.
 
 In the second terminal, run `npm run json-server`. This will turn the `db.json` file containing robot data into a working API with CRUD functionality.
 
